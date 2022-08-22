@@ -1,0 +1,49 @@
+  .main-div{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .gray{
+    width: 200px;
+    background-color: lightblue;
+  }
+
+  .pink{
+    width: 75px;
+    background-color: pink;
+  }
+
+  .main-div1{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .blue{
+    flex: 1;
+    background-color: lightblue;
+  }
+
+  .red{
+    width: 75px;
+    background-color: pink;
+  }
+
+  .main-div3{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .main-div4{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-style: solid;
+    border-color: lightgray;
+    height: 50px;
+    align-items: center;
+    
+  }

@@ -1,0 +1,109 @@
+
+
+.new{
+  text-align: center;
+  color: orangered;
+  margin-bottom: 0;
+}
+
+.mac{
+  text-align: center;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.super{
+  text-align: center;
+  font-weight: bolder;
+  font-size: 2em;
+  margin-top: 0;
+  margin-bottom: 5;
+}
+
+.price{
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.buy{
+  text-align: center;
+  border-radius: 25px;
+  padding: 8px;
+  background-color: rgb(34, 92, 168);
+  color: white;
+  width: 70px;
+}
+
+
+
+
+
+
+  .dollar{
+    font-weight: bold;
+  }
+  
+  .usd{
+    color: gray;
+    font-size: 15px;
+  }
+
+  .today{
+    color: rgb(29, 137, 29);
+  }
+
+  .hour{
+    color: gray;
+  }
+
+  .minus{
+    color: rgb(237, 43, 26);
+  }
+
+
+
+
+
+
+.free{
+  font-weight: bold;
+}
+
+.free2{
+  color: gray;
+  
+}
+
+.note{
+  width: 570px;
+}
+
+.here{
+  font-weight: 100px;
+}
+
+.chp{
+  color: rgb(0, 183, 255);
+}
+
+.model{
+  font-weight: bold;
+  text-align: center;
+  font-size: 2em;
+}
+
+.order{
+  color: black;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.touchless{
+  text-decoration: underline;
+}
+
+
+
+

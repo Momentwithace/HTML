@@ -1,0 +1,34 @@
+.main-grid{
+  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+.gray{
+  background-color: gray;
+}
+
+.pink{
+  background-color: pink;
+}
+
+.main-grid2{
+  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr;
+}
+
+.green{
+  background-color: green;
+}
+
+.red{
+  background-color: red;
+}
+
+.main-grid3{
+  margin-bottom:10px ;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 20px;
+}

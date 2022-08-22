@@ -1,0 +1,46 @@
+.main-div{
+  /* border-style: solid; */
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  position: fixed;
+  right: 10px;
+  left: 10px;    
+}
+
+.image{
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.username{
+  font-weight: bold;
+  width: 550px;
+  font-size: small;
+}
+
+.add-friend{
+  background-color: rgb(81, 132, 214);
+  color: white;
+  width: 100px;
+  margin-right: 10px;
+  font-size: xx-small;
+  padding: 6px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.message-button{
+  background-color: rgb(214, 212, 212);
+  color: black;
+  font-weight: bold;
+  flex: 1;
+  border: none;
+  padding: 6px;
+  width: 100px;
+  border-radius: 6px;
+  font-size: xx-small;
+}

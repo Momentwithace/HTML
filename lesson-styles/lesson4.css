@@ -1,0 +1,101 @@
+
+  .back{
+    padding: 8px;
+    font-weight: bold;
+    margin: 8px;
+    border-color: gray;
+    border-radius: 4px;
+  }
+
+  .number{
+    text-decoration: wavy;
+  }
+
+  .next{
+    padding: 8px;
+    font-weight: bold;
+    margin: 8px;
+    border-color: gray;
+    border-radius: 4px;
+  }
+
+  .stretch{
+    padding: 8px;
+    font-weight: bold;
+    margin: 8px;
+    background-color: green;
+    color: white;
+    border: none;
+    transition: background-color 0.5s;
+    transition: padding 0.5s;
+  }
+
+  .stretch:hover{
+    background-color: rgb(7, 113, 7);
+    padding: 16;
+  }
+
+  .shadow{
+    padding: 8px;
+    font-weight: bold;
+    margin: 8px;
+    background-color: green;
+    color: white;
+    border: none;
+    transition: background-color 0.5s;
+    transition: box-shadow 0.5s;
+  }
+
+  .shadow:hover{
+    background-color: rgb(7, 113, 7);
+    box-shadow: 3px 3px 3px gray;
+  }
+
+  .one{
+    padding: 8px;
+    font-weight: bold;
+    margin: 8px;
+    background-color: green;
+    color: white;
+    border: none;
+    transition: background-color 0.5s;
+    transition: width 0.3s;
+  }
+
+  .one:hover{
+    background-color: rgb(7, 113, 7);
+    width: 80px;
+
+  }
+
+  .two{
+    padding: 8px;
+    font-weight: bold;
+    margin: 8px;
+    background-color: green;
+    color: white;
+    border: none;
+    transition: background-color 0.5s;
+    transition: width 0.5s;
+  }
+
+  .two:hover{
+    background-color: rgb(7, 113, 7);
+    width: 80px;
+  }
+
+  .three{
+    padding: 8px;
+    font-weight: bold;
+    margin: 8px;
+    background-color: green;
+    color: white;
+    border: none;
+    transition: background-color 0.5s;
+    transition: width 0.5s;
+  }
+
+  .three:hover{
+    background-color: rgb(7, 113, 7);
+    width: 80px;
+  }

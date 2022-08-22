@@ -1,0 +1,53 @@
+.image1{
+  width: 300px;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+.image2{
+  width: 300px;
+  margin: 20px;
+}
+
+.image3{
+  width: 300px;
+  border-radius: 1000px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.search{
+  border-color: rgb(219, 213, 213);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.search-google{
+  border-color: rgb(219, 213, 213);
+  border-radius: 20px;
+  padding: 10px;
+  width: 400px;
+}
+
+.email{
+  color: gray;
+}
+
+.empty{
+  width: 460px;
+  border-color: rgb(219, 213, 213);
+}
+
+.terms{
+  color: gray;
+}
+
+.agree{
+  width: 470px;
+  font-weight: bold;
+  padding: 15px;
+  margin-bottom: 40px;
+  color: white;
+  background-color: rgb(72, 134, 209);
+  border-radius: 28px;
+}

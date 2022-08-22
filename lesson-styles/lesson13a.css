@@ -1,0 +1,69 @@
+    .first-example{
+      border-style: solid;
+      border-radius: 10px;
+      border-color: rgb(230, 223, 223);
+      padding: 25px;
+      box-shadow: inset 1px 2px 5px rgb(225, 223, 223);
+    }
+
+    .all-inboxes{
+      color: rgb(99, 94, 94);
+      font-weight: bold;
+      margin-left: 20px;
+      margin-bottom: 30px;
+    }
+
+    .image{
+      display: block;
+      height: 150px;
+      width: 150px;
+      border-radius: 150px;
+    }
+
+    .header-and-time{
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    .message-time{
+      color: rgb(46, 33, 33);
+    }
+
+    .message-header{
+      font-weight: bold;
+    }
+
+    .message-sub-header{
+      font-weight: bold;
+      margin-top: 5px;
+      font-size: small;
+    }
+
+    .message-body{
+      color: rgb(46, 33, 33);
+      margin-top: 5px;
+    }
+
+    .main-profile{
+      display: flex;
+      align-items: center;
+  
+    }
+
+    .picture{
+      width: 160px;
+    }
+
+    .details{
+      flex: 1;
+    }
+
+    .second-example{
+      border-style:solid;
+      margin-top: 50px;
+      border-radius: 10px;
+      padding: 20px;
+      border-color: rgb(230, 223, 223);
+      box-shadow: 1px 2px 3px rgb(225, 223, 223);
+    }
+

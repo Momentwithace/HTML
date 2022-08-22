@@ -1,0 +1,67 @@
+.flex-box{
+  border-style: groove;
+  border-color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+.main-flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.icon{
+  font-weight: 500;
+  cursor: pointer;
+  transition: font-weight 0.5s;
+}
+
+.icon:hover{
+  font-weight: bold;
+}
+
+.number14{
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+  background-color: rgb(38, 131, 230);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: hover 0.5s;
+}
+
+.number14:hover{
+  box-shadow: 5px 5px 5px rgb(214, 203, 203);
+}
+
+.main-flex1{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgba(78, 34, 122, 0.788);
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  align-items: center;
+}
+
+.text{
+  width: 550px;
+  border-radius: 50px;
+  padding: 5px;
+}
+
+button{
+  color: white;
+  background-color: rgba(120, 86, 153, 0.788);
+  border-color: white;
+  transition: box-shadow 0.5s;
+}
+
+button:hover{
+  cursor: pointer;
+  box-shadow: 5px 5px 5px rgba(79, 39, 120, 0.788);
+}

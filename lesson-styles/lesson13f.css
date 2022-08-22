@@ -1,0 +1,59 @@
+  .image{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+
+  .main-flex{
+    margin-top: 20px;
+    display: flex;
+    align-items: top;
+    margin-bottom: 20px;
+  }
+
+  .content-flex{
+   flex: 1;
+  
+  }
+
+  .username-flex{
+    display: flex;
+    margin-left: 20px;
+  }
+
+  .username{
+    font-weight: bold;
+    width: 145px;
+    cursor: pointer;
+  }
+
+  .tweet{
+    margin-left: 20px;
+  }
+
+  .link-flex1{
+    padding: 20px;
+  }
+
+  .link{
+    font-weight: bold;
+  }
+
+  .link-flex{
+    cursor: pointer;
+    display: flex;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: rgb(237, 233, 233);
+    width: 350px;
+    margin-left: 70px
+  }
+
+  .gray{
+    width: 100px;
+    background-color: rgb(171, 164, 164);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    
+  }

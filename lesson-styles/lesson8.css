@@ -1,0 +1,77 @@
+.image{
+  width: 210px;
+  height: 210px;
+  border-radius: 105px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.update{
+  padding: 30px;
+  margin-right: 20px;
+  background-color: white;
+  border: none;
+}
+.button{
+  width: 80px;
+  font-weight: bold;
+  padding: 8px;
+  margin-bottom: 40px;
+  color: white;
+  background-color: rgb(72, 134, 209);
+  border-radius: 28px;
+  transition: hover 0.5s;
+}
+
+.button:hover{
+  color: white;
+  background-color: rgb(34, 110, 203);
+  box-shadow: 5px 5px 5px gray;
+}
+
+.lesson8{
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 20px;
+}
+
+.profile{
+  width: 210px;
+}
+
+.name{
+  font-weight: bold;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.status{
+  color: gray;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.add{
+  background-color: rgb(72, 134, 209);
+  color: white;
+  border: none;
+  padding: 10px;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  
+}
+
+.fb{
+  background-color: black;
+  width: 210px;
+  border-style: solid;
+  border-color: rgb(237, 235, 235);
+  background-color: white;
+  margin-bottom: 40px;
+  margin-right: 20px;
+}
+
+.add-friend{
+  display: flex;
+}

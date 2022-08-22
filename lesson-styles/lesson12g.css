@@ -1,0 +1,39 @@
+    .main-div{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 10px;
+    }
+
+    .image{
+     width: 170px;
+     height: 170px;
+     border-radius: 150px;
+     margin-right: 30px;
+    }
+
+    .username{
+      font-weight: bold;
+      width: 620px;
+      margin: 7px;
+      
+      
+
+    }
+
+    p{
+      color: rgb(100, 87, 87);
+      margin: 5px; 
+    }
+
+
+    button{
+      background-color: rgb(49, 131, 230);
+      color: white;
+      border: none;
+      width: 100px;
+      height: 40px;
+      border-radius: 8px;  
+      font-weight: bold;
+    }
+  

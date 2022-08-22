@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson11d</title>
+
+    <style>
+
+      body{
+        display: grid;
+        border-style: solid;
+        border-color: rgb(241, 236, 236);
+      
+      }
+
+      .profile-picture{
+        width: 300px;
+        display: grid;
+        grid-template-columns: 1fr;
+        cursor: pointer;
+
+      }
+
+      p{
+        font-weight: bold;
+        margin: 10px;
+        cursor: pointer;
+        margin-left: 20px;
+      }
+
+      .mutual-grid{
+        display: grid;
+        grid-template-columns: 50px 1fr;
+        column-gap: 10px;
+        margin-left: 15px;
+      }
+
+      .profile-picture2{
+        width: 50px;
+        height: 50px;
+        border-radius: 25px;
+        background-color: red;
+        cursor: pointer;
+
+      }
+
+      .mutuals{
+        color: gray;
+        background-color: red; 
+        cursor: pointer;
+      }
+
+      button{
+        color: white;
+        background-color: rgb(23, 142, 228);
+        font-weight: bold;
+        border: none;
+        padding: 6px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: box-shadow 0.5s;
+        width: 120px;
+      }
+
+      button:hover{
+        box-shadow: 5px 5px 5px rgb(203, 201, 201);
+      }
+
+    </style>
+
+
+
+  </head>
+  <body class="body">
+
+    <div class="main-grid">
+
+        <div class="profile-grid">
+          <img
+            class="profile-picture"
+            src="/assert/image/boot2.JPG"
+            alt="Picture of a Cat"
+          />
+          <p>Oliver</p>
+        </div>
+        <div class="mutual-grid">
+          <div>
+            <img
+              class="profile-picture2"
+              src="/assert/image/boot.jpeg"
+              alt="Cat image"
+            />
+          </div>
+
+          <div class="mutuals">
+           2 Mutual Friends
+          </div>
+          <div>
+            <button class="add">Add Friend</button>
+          </div>
+      </div>
+    </div>
+  </body>
+</html>
